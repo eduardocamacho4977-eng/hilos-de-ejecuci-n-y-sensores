@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 5: Corrutina Básica en Kotlin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCorrutina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanzar Corrutina (5 Segundos)" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvConsola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presione el botón para iniciar la corrutina..."
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout>

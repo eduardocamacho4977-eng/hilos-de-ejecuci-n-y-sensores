@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HilosDeEjecuciónYSensores">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Ejercicio01Activity" android:exported="false" />
+        <activity android:name=".Ejercicio02Activity" android:exported="false" />
+        <activity android:name=".Ejercicio03Activity" android:exported="false" />
+        <activity android:name=".Ejercicio04Activity" android:exported="false" />
+        <activity android:name=".Ejercicio05Activity" android:exported="false" />
+        <activity android:name=".Ejercicio06Activity" android:exported="false" />
+        <activity android:name=".Ejercicio07Activity" android:exported="false" />
+        <activity android:name=".Ejercicio08Activity" android:exported="false" />
+        <activity android:name=".Ejercicio09Activity" android:exported="false" />
+        <activity android:name=".Ejercicio10Activity" android:exported="false" />
+        <activity android:name=".Ejercicio11Activity" android:exported="false" />
+        <activity android:name=".Ejercicio12Activity" android:exported="false" />
+        <activity android:name=".Ejercicio13Activity" android:exported="false" />
+        <activity android:name=".Ejercicio14Activity" android:exported="false" />
+        <activity android:name=".Ejercicio15Activity" android:exported="false" />
+        <activity android:name=".Ejercicio16Activity" android:exported="false" />
+        <activity android:name=".Ejercicio17Activity" android:exported="false" />
+        <activity android:name=".Ejercicio18Activity" android:exported="false" />
+        <activity android:name=".Ejercicio19Activity" android:exported="false" />
+        <activity android:name=".Ejercicio20Activity" android:exported="false" />
+        <activity android:name=".Ejercicio21Activity" android:exported="false" />
+        <activity android:name=".Ejercicio22Activity" android:exported="false" />
+        <activity android:name=".Ejercicio23Activity" android:exported="false" />
+        <activity android:name=".Ejercicio24Activity" android:exported="false" />
+        <activity android:name=".Ejercicio25Activity" android:exported="false" />
+        <activity android:name=".Ejercicio26Activity" android:exported="false" />
+        <activity android:name=".Ejercicio27Activity" android:exported="false" />
+        <activity android:name=".Ejercicio28Activity" android:exported="false" />
+
+    </application>
+
+</manifest>

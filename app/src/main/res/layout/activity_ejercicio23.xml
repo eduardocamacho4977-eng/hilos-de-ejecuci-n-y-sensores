@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedorTilt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inclina el dispositivo para mover el cuadro rojo con el acelerómetro"
+        android:textSize="18sp"
+        android:padding="24dp" />
+
+    <View
+        android:id="@+id/vistaPelotaRed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#FF1744" />
+
+</FrameLayout>
